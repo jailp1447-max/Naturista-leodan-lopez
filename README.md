@@ -1,1 +1,0 @@
-# Naturista-leodan-lopez
