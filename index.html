@@ -35,21 +35,47 @@
       padding: 10px;
       margin-top: 30px;
     }
+    header {
+  background-color: green;
+  color: white;
+  padding: 15px;
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;      /* centra verticalmente */
+  justify-content: center;  /* centra título y subtítulo */
+  position: relative;       /* permite fijar el logo a la izquierda */
+}
+
+.logo {
+  width: 150px;   /* tamaño del logo */
+  position: absolute;
+  left: 15px;    /* lo pega a la esquina izquierda */
+}
+
+.titulo {
+  text-align: center;
+}
   </style>
 </head>
 <body>
 
-  <!-- Encabezado -->
-  <header>
-    <h1> Herboristería LEODAN LÓPEZ</h1>
-    <p>Salud y bienestar con productos naturales</p>
-  </header>
+<header>
+  <div class="encabezado">
+    <img src="images/logo.jpg" alt="Logo" class="logo">
+    <div class="titulo">
+      <h1>Herboristería LEODAN LÓPEZ</h1>
+      <p>Salud y bienestar con productos naturales</p>
+    </div>
+  </div>
+</header>
 
   <!-- Presentación -->
   <section>
     <h2>¿Qué es un NATURISTA?</h2>
     <p>Es una persona la cual tiene como objetivo la prevención y tratamiento de enfermedades a través de un estilo de vida saludable usando plantas y sus derivados en medicina.</p>
-    <img src="images/flat-lay-natural-medicinal-spices-herbs.jpeg" alt="MEDICINA">
+    <img src="images/flatlaynaturalmedicinalspicesherbs.jpg" alt="MEDICINA">
   </section>
 
   <!-- Productos -->
